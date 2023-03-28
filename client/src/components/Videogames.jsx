@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { useState } from "react";
 import { getAllVideogames } from "../actions";
-import img from '../imagenes/d0898894122ab331c6411faee24cd4bd.jpg'
+import img from '../imagenes/control.jpg'
 import CardVideogame from "./CardVideogame";
 import s from '../style/Videogames.module.css'
 import Loading from './Loading'

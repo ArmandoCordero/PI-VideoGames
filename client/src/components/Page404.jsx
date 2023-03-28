@@ -1,5 +1,5 @@
 import React from "react";
-import error from '../imagenes/c09a97a8f18cb8908ea897639cbe4fa8.gif'
+import error from '../imagenes/snorlax.gif'
 import { NavLink } from 'react-router-dom'
 import s from '../style/Page404.module.css'
 

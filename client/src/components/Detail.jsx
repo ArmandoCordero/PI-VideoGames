@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { getVideogame } from "../actions";
-import img from '../imagenes/d0898894122ab331c6411faee24cd4bd.jpg'
+import img from '../imagenes/control.jpg'
 import s from '../style/Detail.module.css'
 import Loading from './Loading'
 

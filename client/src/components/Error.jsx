@@ -5,9 +5,9 @@ import s from '../style/Error.module.css'
 export default function Error () {
 
     return (
-        <div className={s.kirby}>
+        <div className={s.jhon}>
             <h1>No se encontraron videojuegos</h1>
-            <img src={i} alt='kirby' />
+            <img src={i} alt='jhon' />
         </div>
     )
 }

@@ -10,8 +10,7 @@ import Page404 from './components/Page404';
 function App() {
   return (
     <div className="App">
-      {/* <h1>Henry Videogames</h1> */}
-      <Routes>
+           <Routes>
         <Route exact path={'/'} element={<LandingPgn />}/>
         <Route exact path={'/home'} element={<Home />} />
         <Route exact path={'/detail/:id'} element={<Detail />} />

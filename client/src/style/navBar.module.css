@@ -1,5 +1,7 @@
+.box{
+    width: 100%;
+}
 .nav {
-    position: absolute;
     top: 0;
     display: flex;
     flex-wrap: wrap;
@@ -9,7 +11,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2b2d42;
+    background-color: #000000;
     box-shadow: 0 0 2px white;
 }
 
@@ -22,18 +24,18 @@
 
 .to{
       
-    color: #000000;
+    color: #fffdfd;
     text-decoration: none;
     border: #ff0000 solid 1px;
     padding: 5px;
     border-radius: 10px;
     font-size: 21px;
     font-family: monospace;
-    box-shadow:  white;
+    box-shadow:  rgb(255, 0, 0);
 }
 
 .to:hover {
-    background-color: #ffffff;
+    background-color: #ff0000;
 }
 
 .to:active {

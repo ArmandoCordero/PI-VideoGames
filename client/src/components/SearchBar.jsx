@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { getNames } from '../actions'
 import s from '../style/SearchBar.module.css'
 import lupa from '../imagenes/pixlr-bg-result.png'
-//import Loading from './Loading'
+
 
 
 export default function SearchBar () {

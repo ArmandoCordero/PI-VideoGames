@@ -20,10 +20,7 @@ export default function Home () {
     const paginado = (pageNumber) => { //establece el numero de pagina
         setCurrentPage(pageNumber)
     }
-    //const paginado = (5) => {
-        //setCurrentPage(5)
-    //}
-
+    
 
     React.useEffect(() => {
         window.scrollTo(0, 0);
